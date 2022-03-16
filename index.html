@@ -4,16 +4,30 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GIGA 자료 모음실</title>
+  <title>GIGA 자료실</title>
   <style>
    html {
     user-select: none;
    }
-   h1 {
+   body {
+    text-align: center;
+   }
+   h1,
+   .chlar {
     margin-left: 50px;
    }
    a {
-    color: blue;
+    color: black;
+    text-decoration-line: none;
+   }
+   a:hover {
+    text-decoration-line: underline;
+   }
+   .box {
+    border: 2px solid #000;
+    width: 50%;
+    margin: 50px auto auto auto;
+    text-align: left;
    }
    .fist_list {
     list-style: none;
@@ -25,61 +39,64 @@
   </style>
  </head>
  <body>
-  <h1>GIGA 활동 자료</h1>
-  <ul class="fist_list">
-   <li>
-    <details>
-     <summary>visual studio</summary>
-     <ul class="second_list">
-      <li><a href="https://code.visualstudio.com/" target="blank">vscode 설치하기</a></li>
-      <li>vscode 사용법</li>
-      <li><a href="https://youtu.be/bS9yTI2fC0w" target="black">유용한 extensions</a></li>
-     </ul>
-    </details>
-   </li>
-   <li>
-    <details>
-     <summary>프론트엔드 언어</summary>
-     <ul class="second_list">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript</li>
-     </ul>
-    </details>
-   </li>
-   <li>
-    <details>
-     <summary>Github</summary>
-     <ul class="second_list">
-      <a href="https://youtu.be/lelVripbt2M"><li>Github 설치 및 사용법</li></a>
-      <a href="https://youtu.be/cwC8t9dno2s"><li>Github으로 협업하기</li></a>
-     </ul>
-    </details>
-   </li>
-   <li>
-    <details>
-     <summary>Netlify</summary>
-     <ul class="second_list">
-      <a href="https://www.netlify.com/"><li>Netlify 바로가기</li></a>
-     </ul>
-    </details>
-   </li>
-   <li>
-    <details>
-     <summary>Bootstrap</summary>
-     <ul class="second_list">
-      <a href="https://getbootstrap.com/"><li>Bootstrap 바로가기</li></a>
-     </ul>
-    </details>
-   </li>
-   <li>
-    <details>
-     <summary>AWS</summary>
-     <ul class="second_list">
-      <a href="https://aws.amazon.com/ko/"><li>AWS 바로가기</li></a>
-     </ul>
-    </details>
-   </li>
-  </ul>
+  <h1>GIGA 자료실</h1>
+  <div class="chlar">made by 최명국</div>
+  <div class="box">
+   <ul class="fist_list">
+    <li>
+     <details>
+      <summary>visual studio</summary>
+      <ul class="second_list">
+       <li><a href="https://code.visualstudio.com/" target="blank">vscode 설치하기</a></li>
+       <li>vscode 사용법</li>
+       <li><a href="https://youtu.be/bS9yTI2fC0w" target="black">유용한 extensions</a></li>
+      </ul>
+     </details>
+    </li>
+    <li>
+     <details>
+      <summary>프론트엔드 언어</summary>
+      <ul class="second_list">
+       <li>HTML</li>
+       <li>CSS</li>
+       <li>Javascript</li>
+      </ul>
+     </details>
+    </li>
+    <li>
+     <details>
+      <summary>Github</summary>
+      <ul class="second_list">
+       <a href="https://youtu.be/lelVripbt2M"><li>Github 설치 및 사용법</li></a>
+       <a href="https://youtu.be/cwC8t9dno2s"><li>Github으로 협업하기</li></a>
+      </ul>
+     </details>
+    </li>
+    <li>
+     <details>
+      <summary>Netlify</summary>
+      <ul class="second_list">
+       <a href="https://www.netlify.com/"><li>Netlify 바로가기</li></a>
+      </ul>
+     </details>
+    </li>
+    <li>
+     <details>
+      <summary>Bootstrap</summary>
+      <ul class="second_list">
+       <a href="https://getbootstrap.com/"><li>Bootstrap 바로가기</li></a>
+      </ul>
+     </details>
+    </li>
+    <li>
+     <details>
+      <summary>AWS</summary>
+      <ul class="second_list">
+       <a href="https://aws.amazon.com/ko/"><li>AWS 바로가기</li></a>
+      </ul>
+     </details>
+    </li>
+   </ul>
+  </div>
  </body>
 </html>
