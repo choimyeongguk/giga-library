@@ -5,98 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HTML</title>
-  <style>
-   body{
-    margin: 0;
-    padding-left: 50px;
-    padding-right: 50px;
-   }
-   .title{
-    text-align: center;
-    font-size: xx-large;
-    margin-bottom: 75px;
-   }
-   h3{
-    margin-left: 50px;
-   }
-   table{
-    border: 1px solid #000;
-    border-collapse: collapse;
-    width: 75%;
-   }
-   th, td{
-    border: 1px solid #000;
-    padding: 15px;
-   }
-   thead{
-    background-color: #d3d3d3;
-   }
-   .box{
-    border: 1px solid #000;
-    padding: 15px;
-    width: 50%;
-    margin-left: 50px;
-    text-align: left;
-   }
-  </style>
  </head>
  <body>
-  <div class="title"><h1>HTML</h1></div>
-  <h3>HTML(Hyperltext Markup Language)</h3>
-   엄연히 말하자면 HTML은 프로그래밍 언어가 아닌 사용자가 보는 페이지가 어떻게 만들어졌는데 브라우저가 확인하게 하는 마크업 언어이다.<br>
-   HTML은 웹페이지의 뼈대를 만드는데 사용된다.<br>
-   HTML을 이용해 대략적인 페이지를 만들고 CSS를 통해 사용자가 보기 편하도록 꾸민다.<br><br>
-   HTML은 기본적으로 '태그'로 이루어진다. 태그의 종류와 안에 들어가는 내용에 따라 다양한 요소를 만들 수 있다.<br>
-   <br>
-   &lt;태그명&gt;내용&lt;/태그명&gt;
-  <p>
-   <br>
-   <h3>HTML 문서의 기본 구조</h3>
-   <div style="border: 1px solid #000;display: inline-block;padding: 15px;">
-    &lt;!DOCTYPE html&gt;<br>
-    &lt;html&gt;<br>
-    &nbsp;&nbsp;&lt;head&gt;<br>
-    &nbsp;&nbsp;&nbsp;...<br>
-    &nbsp;&nbsp;&lt;/head&gt;<br>
-    &nbsp;&nbsp;&lt;body&gt;<br>
-    &nbsp;&nbsp;&nbsp;...<br>
-    &nbsp;&nbsp;&lt;/body&gt;<br>
-    &lt;/html&gt;<br>
-   </div>
-   <br>
-   <br>
-   HTML 문서의 기본 구조는 위와 같다.<br><br>
-   <table>
-    <thead>
-     <tr>
-      <td><b>태그</b></td><td><b>설명</b></td>
-     </tr>
-    </thead>
-    <tbody>
-     <tr>
-      <td>&lt;!DOCTYPE html&gt;</td><td>현재 문서가 HTML5 언어로 작성한 웹 문서임을 나타낸다. HTML 문서를 작성할 때 기본적으로 적어주어야 한다.</td>
-     </tr>
-     <tr>
-      <td>&lt;html&gt; ... &lt;/html&gt;</td><td>웹 문서의 시작과 끝을 나타내는 태그이다. head태그와 body태그를 감싸며, 웹 브라우저가 &lt;html&gt; 태그를 만나면 &lt;/html&gt; 까지 소스를 읽어 화면에 표시한다.</td>
-     </tr>
-     <tr>
-      <td>&lt;head&gt; ... &lt;/head&gt;</td><td>웹 브라우저가 웹 문서를 해석하는 데 필요한 정보를 입력한다.</td>
-     </tr>
-     <tr>
-      <td>&lt;body&gt; ... &lt;/body&gt;</td><td>실제로 웹 브라우저 화면에 나타나는 내용이다.</td>
-     </tr>
-    </tbody>
-   </table>
-  </p>
-  <br>
-  <h3>&lt;head&gt;영역에서 사용하는 태그</h3>
-  <br>
-  <h3>&lt;body&gt;영역에서 사용하는 태그</h3>
+  <h1>HTML</h1>
+  <h2>&lt;hn&gt; 태그</h2>
   <p
    class="codepen"
    data-height="300"
    data-default-tab="html,result"
-   data-slug-hash="MWraWmr"
+   data-slug-hash="qBpNWKa"
+   data-editable="true"
+   data-user="choimyeongguk"
+   style="
+    height: 300px;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 1em 0;
+    padding: 1em;
+   "
+  >
+   <span
+    >See the Pen <a href="https://codepen.io/choimyeongguk/pen/qBpNWKa"> Untitled</a> by 최명국 (<a
+     href="https://codepen.io/choimyeongguk"
+     >@choimyeongguk</a
+    >) on <a href="https://codepen.io">CodePen</a>.</span
+   >
+  </p>
+  <h2>&lt;p&gt; 태그</h2>
+  <p
+   class="codepen"
+   data-height="300"
+   data-default-tab="html,result"
+   data-slug-hash="MWregGd"
+   data-editable="true"
    data-user="choimyeongguk"
    style="
     height: 300px;
@@ -110,13 +55,142 @@
    "
   >
    <span
-    >See the Pen <a href="https://codepen.io/choimyeongguk/pen/MWraWmr"> Untitled</a> by 최명국 (<a
+    >See the Pen <a href="https://codepen.io/choimyeongguk/pen/MWregGd"> Untitled</a> by 최명국 (<a
      href="https://codepen.io/choimyeongguk"
      >@choimyeongguk</a
     >) on <a href="https://codepen.io">CodePen</a>.</span
    >
   </p>
-
+  <h2>&lt;br&gt; 태그</h2>
+  <p
+   class="codepen"
+   data-height="300"
+   data-default-tab="html,result"
+   data-slug-hash="zYpBOLG"
+   data-editable="true"
+   data-user="choimyeongguk"
+   style="
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 1em 0;
+    padding: 1em;
+   "
+  >
+   <span
+    >See the Pen <a href="https://codepen.io/choimyeongguk/pen/zYpBOLG"> Untitled</a> by 최명국 (<a
+     href="https://codepen.io/choimyeongguk"
+     >@choimyeongguk</a
+    >) on <a href="https://codepen.io">CodePen</a>.</span
+   >
+  </p>
+  <h2>HTML코드, &lt;i&gt;, &lt;b&gt;, &lt;br&gt;,&lt;blockquote&gt;,&lt;small&gt; 태그</h2>
+  <p
+   class="codepen"
+   data-height="300"
+   data-default-tab="html,result"
+   data-slug-hash="popbzxm"
+   data-editable="true"
+   data-user="choimyeongguk"
+   style="
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 1em 0;
+    padding: 1em;
+   "
+  >
+   <span
+    >See the Pen <a href="https://codepen.io/choimyeongguk/pen/popbzxm"> Untitled</a> by 최명국 (<a
+     href="https://codepen.io/choimyeongguk"
+     >@choimyeongguk</a
+    >) on <a href="https://codepen.io">CodePen</a>.</span
+   >
+  </p>
+  <h2>list</h2>
+  <p
+   class="codepen"
+   data-height="300"
+   data-default-tab="html,result"
+   data-slug-hash="BaJzaLM"
+   data-editable="true"
+   data-user="choimyeongguk"
+   style="
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 1em 0;
+    padding: 1em;
+   "
+  >
+   <span
+    >See the Pen <a href="https://codepen.io/choimyeongguk/pen/BaJzaLM"> list</a> by 최명국 (<a
+     href="https://codepen.io/choimyeongguk"
+     >@choimyeongguk</a
+    >) on <a href="https://codepen.io">CodePen</a>.</span
+   >
+  </p>
+  <h2>table</h2>
+  <p
+   class="codepen"
+   data-height="300"
+   data-default-tab="html,result"
+   data-slug-hash="KKZMKmw"
+   data-editable="true"
+   data-user="choimyeongguk"
+   style="
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 1em 0;
+    padding: 1em;
+   "
+  >
+   <span
+    >See the Pen <a href="https://codepen.io/choimyeongguk/pen/KKZMKmw"> Untitled</a> by 최명국 (<a
+     href="https://codepen.io/choimyeongguk"
+     >@choimyeongguk</a
+    >) on <a href="https://codepen.io">CodePen</a>.</span
+   >
+  </p>
+  <h2>img</h2>
+  <p
+   class="codepen"
+   data-height="300"
+   data-default-tab="css,result"
+   data-slug-hash="PoEzoEL"
+   data-editable="true"
+   data-user="choimyeongguk"
+   style="
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 1em 0;
+    padding: 1em;
+   "
+  >
+   <span
+    >See the Pen <a href="https://codepen.io/choimyeongguk/pen/PoEzoEL"> Untitled</a> by 최명국 (<a
+     href="https://codepen.io/choimyeongguk"
+     >@choimyeongguk</a
+    >) on <a href="https://codepen.io">CodePen</a>.</span
+   >
+  </p>
   <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
  </body>
 </html>
