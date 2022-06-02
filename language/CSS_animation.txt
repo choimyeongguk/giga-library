@@ -47,7 +47,7 @@ animation-direction -> 애니메이션 재생 방향 설정
 animation-iteration-count 3 -> 애니메이션 3번 실행;1번이 기본값;infinite 적으면 무한 반복
 animation-timing-function: ease-out -> 애니메이션 재생 속도 설정
   참고: https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function
-animation-fill-mode:
+animation-fill-mode: 애니메이션 실행 후 바뀐 상태 유지 여부
 animation-play-state -> 자바스크립트로 조작
   -running: 애니메이션 재생
   -paused: 애니메이션 정지
