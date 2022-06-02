@@ -1,0 +1,70 @@
+CSS 애니메이션
+키프레임(keyframes) : 로딩 후 최초 한 번, 또는 무한 반복으로 애니메이션 실행
+트랜지션(transition) : 조건부 애니메이션 실행
+
+※keyframes 사용하기
+<keyframes 선언>
+@keyframes 이름 {
+  from {
+    스타일1
+    스타일2
+  }
+  to {
+    스타일1'
+    스타일2'
+  }
+}
+from : 애니메이션 시작할 때의 스타일
+to : 애니메이션 끝났을 때의 스타일
+%로 세세하게 설정 가능 :
+@keyframes 이름 {
+  0%{
+    스타일1
+  }
+  25%{
+    스타일1'
+  }
+  50%{
+    스타일1''
+  }
+  75%{
+    스타일1'''
+  }
+  100%{
+    스타일1''''
+  }
+}
+
+<애니메이션 실행>
+animation-name: <키프레임 이름> -> 사용할 애니메이션
+animation-duration: 1s -> 애니메이션 지속 시간
+animation-delay: 1s -> 페이지 로딩 후 1초 뒤 실행
+animation-direction -> 애니메이션 재생 방향 설정
+  -normal : 순방향 재생;기본값;다시 재생 시 첫 번째 프레임부터 시작
+  -reverse: 역방향 재생;다시 재생 시 마지막 프레임부터 시작
+  -alternate: 순방향과 역방향 번갈아 재생
+  -alternate-reverse: 역방향 부터 시작해 번갈아 재생
+animation-iteration-count 3 -> 애니메이션 3번 실행;1번이 기본값;infinite 적으면 무한 반복
+animation-timing-function: ease-out -> 애니메이션 재생 속도 설정
+  참고: https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function
+animation-fill-mode:
+animation-play-state -> 자바스크립트로 조작
+  -running: 애니메이션 재생
+  -paused: 애니메이션 정지
+
+animation: name | duration | timing-function | delay | iteration-count | direction | fill-mode | play-state
+-> 한 번에 설정하기
+
+
+※transition 사용하기
+<transition 설정>
+.class {
+  속성1: 속성값1;
+  속성2: 속성값2;
+  속성3: 속성값3;
+  transition: 속성1 1s 속성2 2s
+}
+.class: hover {
+  속성1: 속성값1';
+  속성3: 속성값3';
+}
